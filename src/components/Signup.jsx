@@ -3,7 +3,7 @@ import React from "react";
 const Signup = () => {
   return (
     <div className="flex flex-row">
-      <div className="mx-16 my-10 basis-2/5">
+      <div className="mx-20 my-10 basis-2/5">
         <h1 className="font-bold text-3xl text-[#ff748d]">TweetX</h1>
         <button className="my-10 py-2 px-20 border border-[#8c8c8c] rounded-lg font-semibold text-[#182631]">
           Login
