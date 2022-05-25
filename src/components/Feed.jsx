@@ -1,6 +1,6 @@
 import React from "react";
 
-const Main = () => {
+const Feed = () => {
   return (
     <div className="mx-96">
       <button className="my-8 py-2 px-6 rounded bg-[#ff748d] text-white ">
@@ -31,4 +31,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Feed;
