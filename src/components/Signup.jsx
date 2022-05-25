@@ -46,7 +46,7 @@ const Signup = () => {
         </button>
       </div>
       <div className="flex items-center">
-        <img src="signin.png" alt="signin"  />
+        <img src="sign.png" alt="signup"  />
       </div>
     </div>
   );
