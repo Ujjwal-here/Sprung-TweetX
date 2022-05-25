@@ -1,0 +1,14 @@
+.main{
+    position: relative;
+}
+.semicircle{
+    width: 60px;
+    height: 30px;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    background-color:#ff748d ;
+    transform: rotate(270deg); 
+    border-bottom: 0;
+    position: absolute;
+    right: -15px;
+    top: -10px;
+}
