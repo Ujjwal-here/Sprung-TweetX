@@ -1,13 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Signup = () => {
+  const navigate = useNavigate();
   return (
     <div className="flex flex-row">
       <div className="mx-20 my-10 basis-2/5">
         <h1 className="font-bold text-3xl text-[#ff748d]">TweetX</h1>
-        <button className="my-10 py-2 px-20 border border-[#8c8c8c] rounded-lg font-semibold text-[#182631]">
+
+        <button onClick={()=>navigate('/login')} className="my-10 py-2 px-20 border border-[#8c8c8c] rounded-lg font-semibold text-[#182631]">
           Login
         </button>
+
         <h1 className="my-10 text-4xl font-bold text-[#5d676e]">
           Create Account
         </h1>
@@ -46,7 +50,7 @@ const Signup = () => {
         </button>
       </div>
       <div className="flex items-center">
-        <img src="sign.png" alt="signup"  />
+        <img src="sign.png" alt="signup" />
       </div>
     </div>
   );
