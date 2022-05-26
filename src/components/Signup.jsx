@@ -6,46 +6,49 @@ const Signup = () => {
   return (
     <div className="flex flex-row">
       <div className="mx-20 my-10 basis-2/5">
-        <h1 className="font-bold text-3xl text-[#ff748d]">TweetX</h1>
+        <h1 className="font-bold lg:text-3xl sm:text-xl text-[#ff748d]">TweetX</h1>
 
-        <button onClick={()=>navigate('/login')} className="my-10 py-2 px-20 border border-[#8c8c8c] rounded-lg font-semibold text-[#182631]">
+        <button
+          onClick={() => navigate("/login")}
+          className="my-10 lg:py-2 lg:px-20 lg:text-sm sm:py-2 sm:px-14 sm:text-xs border border-[#8c8c8c] rounded-xl font-semibold text-[#182631]"
+        >
           Login
         </button>
 
-        <h1 className="my-10 text-4xl font-bold text-[#5d676e]">
+        <h1 className="my-10 lg:text-3xl sm:text-2xl font-bold text-[#5d676e]">
           Create Account
         </h1>
         <div className="flex flex-col">
           <input
-            className="py-4 my-2 px-4 bg-[#f9f9f9] rounded-lg"
+            className="lg:py-4 my-2 px-4 sm:py-2 sm:text-sm bg-[#f9f9f9] rounded-lg"
             type="text"
             name="name"
             id="name"
             placeholder="Name"
           />
           <input
-            className="py-4 my-2 px-4 bg-[#f9f9f9] rounded-lg"
+            className="lg:py-4 my-2 px-4 sm:py-2 sm:text-sm bg-[#f9f9f9] rounded-lg"
             type="email"
             name="email"
             id="email"
             placeholder="Email"
           />
           <input
-            className="py-4 my-2 px-4 bg-[#f9f9f9] rounded-lg"
+            className="lg:py-4 my-2 px-4 sm:py-2 sm:text-sm bg-[#f9f9f9] rounded-lg"
             type="password"
             name="password"
             id="password"
             placeholder="Password"
           />
           <input
-            className="py-4 my-2 px-4 bg-[#f9f9f9] rounded-lg"
+            className="lg:py-4 my-2 px-4 sm:py-2 sm:text-sm bg-[#f9f9f9] rounded-lg"
             type="password"
             name="password2"
             id="password2"
             placeholder="Confirm Password"
           />
         </div>
-        <button className="my-6 py-2 px-6 rounded bg-[#ff748d] text-white ">
+        <button className="justify-self-end my-6 lg:py-2 lg:px-6 sm:px-4 sm:py-2 rounded lg:text-sm sm:text-xs bg-[#ff748d] text-white ">
           Signup
         </button>
       </div>
