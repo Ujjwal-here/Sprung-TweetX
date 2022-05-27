@@ -5,17 +5,17 @@ const Signup = () => {
   const navigate = useNavigate();
   return (
     <div className="flex flex-row">
-      <div className="mx-20 my-10 basis-2/5">
-        <h1 className="font-bold lg:text-3xl sm:text-xl text-[#ff748d]">TweetX</h1>
+      <div className="xs:mx-10 lg:mx-20 sm:mx-20 my-10 basis-2/5">
+        <h1 className="font-bold xs:text-2xl lg:text-3xl sm:text-xl text-[#ff748d]">TweetX</h1>
 
         <button
           onClick={() => navigate("/login")}
-          className="my-10 lg:py-3 lg:px-20 lg:text-sm sm:py-2 sm:px-14 sm:text-xs border border-[#8c8c8c] rounded-xl font-semibold text-[#182631]"
+          className="my-10 xs:py-2 xs:px-14 lg:py-3 lg:px-20 lg:text-sm sm:py-2 sm:px-14 sm:text-xs border border-[#8c8c8c] rounded-xl font-semibold text-[#182631]"
         >
           Login
         </button>
 
-        <h1 className="my-10 lg:text-3xl sm:text-2xl font-bold text-[#5d676e]">
+        <h1 className="my-10 xs:text-3xl lg:text-3xl sm:text-2xl font-bold text-[#5d676e]">
           Create Account
         </h1>
         <div className="flex flex-col">
