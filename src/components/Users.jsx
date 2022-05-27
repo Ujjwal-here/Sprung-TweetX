@@ -4,7 +4,7 @@ import Following from "../reusable/Following"
 
 const Users = () => {
   return (
-    <div className="mx-96 my-10 ">
+    <div className="sm:mx-14 lg:mx-32 md:mx-20 2xl:mx-96 my-10 ">
       <Follow/>
       <hr className="mx-28"/>
       <Following/>
