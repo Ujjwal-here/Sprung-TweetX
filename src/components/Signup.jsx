@@ -10,7 +10,7 @@ const Signup = () => {
 
         <button
           onClick={() => navigate("/login")}
-          className="my-10 lg:py-2 lg:px-20 lg:text-sm sm:py-2 sm:px-14 sm:text-xs border border-[#8c8c8c] rounded-xl font-semibold text-[#182631]"
+          className="my-10 lg:py-3 lg:px-20 lg:text-sm sm:py-2 sm:px-14 sm:text-xs border border-[#8c8c8c] rounded-xl font-semibold text-[#182631]"
         >
           Login
         </button>
@@ -48,8 +48,8 @@ const Signup = () => {
             placeholder="Confirm Password"
           />
         </div>
-        <button className="justify-self-end my-6 lg:py-2 lg:px-6 sm:px-4 sm:py-2 rounded lg:text-sm sm:text-xs bg-[#ff748d] text-white ">
-          Signup
+        <button className="justify-self-end my-6 lg:py-3 lg:px-6 sm:px-4 sm:py-2 rounded lg:text-sm sm:text-xs bg-[#ff748d] text-white ">
+          Sign up
         </button>
       </div>
       <div className="flex items-center">
