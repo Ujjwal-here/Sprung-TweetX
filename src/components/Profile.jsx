@@ -1,9 +1,7 @@
 import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
 
-
 const Profile = () => {
-  
   return (
     <div className="mx-96 my-8">
       <div className="h-40 flex flex-row">
@@ -20,16 +18,18 @@ const Profile = () => {
         </div>
       </div>
       <hr className="ml-20 mr-36 mt-8" />
-      <NavLink to="" className="text-[#b7b7b7] ml-40 px-6">
-        Posts
-      </NavLink>
-      <NavLink to="follow" className="text-[#b7b7b7] ml-16 px-6">
-        Followers
-      </NavLink>
-      <NavLink to="following" className="text-[#b7b7b7] ml-16 px-6">
-        Following
-      </NavLink>
-      <Outlet/>
+      <div className="my-2">
+        <NavLink to="" end className="text-[#b7b7b7] ml-40 px-6 mx-8">
+          Posts
+        </NavLink>
+        <NavLink to="follow" className="text-[#b7b7b7] ml-16 px-6">
+          Followers
+        </NavLink>
+        <NavLink to="following" className="text-[#b7b7b7] ml-16 px-6">
+          Following
+        </NavLink>
+        <Outlet />
+      </div>
     </div>
   );
 };

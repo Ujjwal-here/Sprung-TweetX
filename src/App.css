@@ -13,3 +13,6 @@
     bottom: 60px;
 }
 
+div a.active{
+    color: #ff748d;
+}
